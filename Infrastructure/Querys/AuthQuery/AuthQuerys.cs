@@ -19,10 +19,10 @@ namespace Infrastructure.Querys.AuthQuery
             _context = context;
         }
 
-        public async Task<UserDTO> Get(string email, string password)
+        public async Task<UserDTO> Get(LoginUserDTO login)
         {
             var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
+                .FirstOrDefaultAsync(u => u.Email == login.Email && u.Password == login.Password);
             if (user == null)
             {
                 throw new ArgumentException("Usuario no encontrado");
@@ -36,13 +36,7 @@ namespace Infrastructure.Querys.AuthQuery
                 Email = user.Email,
                 Password = user.Password,
                 Phone = user.Phone,
-                Role = user switch
-                {
-                    Domain.Entities.Administrator => "Administrator",
-                    Domain.Entities.Customer => "Customer"
-                },
-                TeamName = (user as Administrator)?.TeamName,
-                UserName = (user as Customer)?.UserName
+                Role = user.Role
             };
             return userDTO;
 
@@ -65,13 +59,7 @@ namespace Infrastructure.Querys.AuthQuery
                 Email = user.Email,
                 Password = user.Password,
                 Phone = user.Phone,
-                Role = user switch
-                {
-                    Domain.Entities.Administrator => "Administrator",
-                    Domain.Entities.Customer => "Customer"
-                },
-                TeamName = (user as Administrator)?.TeamName,
-                UserName = (user as Customer)?.UserName
+                Role = user.Role
             };
             return userDTO;
         }

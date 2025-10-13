@@ -13,3 +13,4 @@ C:\Users\fedea\Desktop\AuthServiceApi\Application\obj\Debug\net8.0\Application.d
 C:\Users\fedea\Desktop\AuthServiceApi\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\fedea\Desktop\AuthServiceApi\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\fedea\Desktop\AuthServiceApi\Application\obj\Debug\net8.0\ref\Application.dll
+c:\Users\fedea\Desktop\AuthServiceApi\Application\obj\Debug\net8.0\Application.sourcelink.json

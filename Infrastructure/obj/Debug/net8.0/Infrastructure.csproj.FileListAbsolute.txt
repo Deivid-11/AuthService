@@ -17,3 +17,4 @@ C:\Users\fedea\Desktop\AuthServiceApi\Infrastructure\obj\Debug\net8.0\refint\Inf
 C:\Users\fedea\Desktop\AuthServiceApi\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 C:\Users\fedea\Desktop\AuthServiceApi\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 C:\Users\fedea\Desktop\AuthServiceApi\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+c:\Users\fedea\Desktop\AuthServiceApi\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

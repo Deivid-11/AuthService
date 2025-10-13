@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj": {}
+    "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "c:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

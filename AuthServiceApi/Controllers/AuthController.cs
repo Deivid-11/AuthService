@@ -29,6 +29,10 @@ namespace AuthServiceApi.Controllers
         [HttpGet("login")]
         public async Task<IActionResult> Login([FromBody] LoginUserDTO login)
         {
+            if (login == null || string.IsNullOrEmpty(login.Email) || string.IsNullOrEmpty(login.Password))
+            {
+                return BadRequest("Email and Password are required.");
+            }
             var result = await _authService.Login(login);
             return new JsonResult(result);
         }
@@ -36,17 +40,10 @@ namespace AuthServiceApi.Controllers
         // GET: api/auth/me
         [HttpGet("me")]
         [Authorize]
-        public async Task<IActionResult> GetCurrentUser()
+        public async Task<IActionResult> GetCurrentUser(Guid Id)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-
-            if (string.IsNullOrEmpty(userIdClaim))
-                return Unauthorized("Invalid token — no user ID found.");
-
-            var userId = Guid.Parse(userIdClaim);
-
-            var result = await _authService.GetCurrentUser(userId);
-            return Ok(result);
+            var result = await _authService.GetCurrentUser(Id);
+            return new JsonResult(result);
         }
     }
 }

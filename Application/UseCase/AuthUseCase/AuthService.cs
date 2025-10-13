@@ -33,14 +33,14 @@ namespace Application.UseCase.AuthUseCase
             {
                 throw new ArgumentException("El usuario no puede ser nulo");
             }
-            return await _authQuery.Get(loginUserDTO.Email, loginUserDTO.Password);
+            return await _authQuery.Get(loginUserDTO);
         }
 
         public async Task<UserDTO> Register(UserDTO user)
         {
             if (user == null)
             {
-                throw new ArgumentException("El usuario creado no puede ser nulo");
+                throw new ArgumentException("the user cannot be null");
             }
             return await _authCommand.Insert(user);
         }

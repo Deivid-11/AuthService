@@ -174,3 +174,5 @@ C:\Users\fedea\Desktop\AuthServiceApi\AuthServiceApi\bin\Debug\net8.0\ru\Microso
 C:\Users\fedea\Desktop\AuthServiceApi\AuthServiceApi\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\fedea\Desktop\AuthServiceApi\AuthServiceApi\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\fedea\Desktop\AuthServiceApi\AuthServiceApi\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+c:\Users\fedea\Desktop\AuthServiceApi\AuthServiceApi\obj\Debug\net8.0\AuthServiceApi.sourcelink.json
+C:\Users\fedea\Desktop\AuthServiceApi\AuthServiceApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

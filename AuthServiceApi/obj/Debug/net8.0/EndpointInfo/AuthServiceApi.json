@@ -72,6 +72,16 @@
         "tags": [
           "Auth"
         ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -124,14 +134,6 @@
             "nullable": true
           },
           "role": {
-            "type": "string",
-            "nullable": true
-          },
-          "teamName": {
-            "type": "string",
-            "nullable": true
-          },
-          "userName": {
             "type": "string",
             "nullable": true
           }

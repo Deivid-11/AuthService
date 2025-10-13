@@ -15,40 +15,18 @@ namespace Infrastructure.Commands.AuthCommand
 
         public async Task<UserDTO> Insert(UserDTO user)
         {
-            if (user == null)
+            var userInsert = new User
             {
-                throw new ArgumentException("El usuario creado no puede ser nulo");
-            }
-            if (user.Role.ToLower() == "administrator")
-            {
-                var newUser = new Administrator
-                {
-                    Id = user.Id,
-                    Name = user.Name,
-                    LastName = user.LastName,
-                    Email = user.Email,
-                    Password = user.Password,
-                    Phone = user.Phone,
-                    TeamName = user.TeamName
-                };
-                await _context.Users.AddAsync(newUser);
-            }
-            if (user.Role.ToLower() == "customer")
-            {
-                var newUser = new Customer
-                {
-                    Id = user.Id,
-                    Name = user.Name,
-                    LastName = user.LastName,
-                    Email = user.Email,
-                    Password = user.Password,
-                    Phone = user.Phone,
-                    UserName = user.UserName
-                };
-                await _context.Users.AddAsync(newUser);
-            }
+                Id = Guid.NewGuid(),
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email,
+                Password = user.Password,
+                Role = user.Role,
+            };
+            _context.Users.Add(userInsert);
             await _context.SaveChangesAsync();
-            return user;
+            return await Task.FromResult(user);
         }
 
     }
