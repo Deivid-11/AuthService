@@ -5,8 +5,8 @@ namespace Application.Interfaces.AuthInterface
 {
     public interface IAuthService
     {
-        Task<UserDTO> Register(UserDTO registerUserDTO);
-        Task<UserDTO> Login(LoginUserDTO loginUserDTO);
-        Task<UserDTO> GetCurrentUser(Guid userId);
+        Task<UserResponseDTO> Register(UserRequestDTO registerUserDTO);
+        Task<UserResponseDTO> Login(LoginUserDTO loginUserDTO);
+        Task<UserResponseDTO> GetCurrentUser(Guid userId);
     }
 }

@@ -3,56 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Migrations\\20251013222717_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20251013222717_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\commands\\authcommand\\authcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\authcommand\\authcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\models\\usermodel\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\models\\usermodel\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\usecase\\authusecase\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\usecase\\authusecase\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\authserviceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|solutionrelative:authserviceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\interfaces\\authinterface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\authinterface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\interfaces\\authinterface\\iauthquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\authinterface\\iauthquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\authserviceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|solutionrelative:authserviceapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\querys\\authquery\\authquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\authquery\\authquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\models\\usermodel\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\models\\usermodel\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\commands\\authcommand\\authcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\authcommand\\authcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\migrations\\20251014115932_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20251014115932_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\interfaces\\authinterface\\iauthcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\authinterface\\iauthcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\models\\usermodel\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\models\\usermodel\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90F4E5BA-BD31-4660-9DCF-9A6104971DD9}|Domain\\Domain.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F4E5BA-BD31-4660-9DCF-9A6104971DD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90F4E5BA-BD31-4660-9DCF-9A6104971DD9}|Domain\\Domain.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F4E5BA-BD31-4660-9DCF-9A6104971DD9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\authserviceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|solutionrelative:authserviceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\interfaces\\authinterface\\iauthcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\authinterface\\iauthcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\models\\usermodel\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\models\\usermodel\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\application\\models\\usermodel\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\models\\usermodel\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\fedea\\desktop\\authserviceapi\\infrastructure\\querys\\authquery\\authquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\authquery\\authquerys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,19 +62,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251013222717_init.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Migrations\\20251013222717_init.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251013222717_init.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Migrations\\20251013222717_init.cs",
-              "RelativeToolTip": "Infrastructure\\Migrations\\20251013222717_init.cs",
+              "DocumentIndex": 5,
+              "Title": "LoginUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\LoginUserDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\UserModel\\LoginUserDTO.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\LoginUserDTO.cs",
+              "RelativeToolTip": "Application\\Models\\UserModel\\LoginUserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:27:17.639Z",
+              "WhenOpened": "2025-10-14T12:06:32.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthCommands.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
+              "RelativeToolTip": "Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:25:02.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\UserModel\\UserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\UserResponseDTO.cs",
+              "RelativeToolTip": "Application\\Models\\UserModel\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:24:33.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:10:17.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:05:46.337Z",
               "EditorCaption": ""
             },
             {
@@ -85,143 +137,101 @@
               "RelativeDocumentMoniker": "Application\\UseCase\\AuthUseCase\\AuthService.cs",
               "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\UseCase\\AuthUseCase\\AuthService.cs",
               "RelativeToolTip": "Application\\UseCase\\AuthUseCase\\AuthService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA7wB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA7wCwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:27:22.014Z",
+              "WhenOpened": "2025-10-14T11:50:43.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\AuthInterface\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\AuthInterface\\IAuthService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:20:02.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAuthCommand.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
-              "RelativeToolTip": "Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:29:13.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthCommands.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
-              "RelativeToolTip": "Infrastructure\\Commands\\AuthCommand\\AuthCommands.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:33:56.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthQuery.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\AuthInterface\\IAuthQuery.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthQuery.cs",
-              "RelativeToolTip": "Application\\Interfaces\\AuthInterface\\IAuthQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:30:52.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthQuerys.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
-              "RelativeToolTip": "Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwD0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:47:37.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAIA7wAgAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:22:15.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Persistence\\AppDbContext.cs",
-              "RelativeToolTip": "Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T21:48:09.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\UserModel\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\UserDTO.cs",
-              "RelativeToolTip": "Application\\Models\\UserModel\\UserDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:21:59.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\AuthServiceApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "AuthServiceApi\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\AuthServiceApi\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AuthServiceApi\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwCwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:14:33.096Z"
+              "WhenOpened": "2025-10-14T00:22:41.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\AuthServiceApi\\Program.cs",
-              "RelativeDocumentMoniker": "AuthServiceApi\\Program.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\AuthServiceApi\\Program.cs",
-              "RelativeToolTip": "AuthServiceApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\AuthInterface\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\AuthInterface\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T21:03:26.766Z"
+              "WhenOpened": "2025-10-14T11:50:25.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "LoginUserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\LoginUserDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\UserModel\\LoginUserDTO.cs",
-              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\LoginUserDTO.cs",
-              "RelativeToolTip": "Application\\Models\\UserModel\\LoginUserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Title": "AuthQuerys.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
+              "RelativeToolTip": "Infrastructure\\Querys\\AuthQuery\\AuthQuerys.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T12:25:49.259Z"
+              "WhenOpened": "2025-10-14T11:44:48.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\UserRequestDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\UserModel\\UserRequestDTO.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Models\\UserModel\\UserRequestDTO.cs",
+              "RelativeToolTip": "Application\\Models\\UserModel\\UserRequestDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:49:53.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthCommand.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
+              "RelativeToolTip": "Application\\Interfaces\\AuthInterface\\IAuthCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:51:41.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251014115932_init.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Migrations\\20251014115932_init.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251014115932_init.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Migrations\\20251014115932_init.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251014115932_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T11:59:32.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\fedea\\Desktop\\AuthServiceApi\\Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwBsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T00:11:25.702Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -18,7 +18,7 @@ namespace Application.UseCase.AuthUseCase
             _authCommand = authCommand;
             _authQuery = authQuery;
         }
-        public async Task<UserDTO> GetCurrentUser(Guid userId)
+        public async Task<UserResponseDTO> GetCurrentUser(Guid userId)
         {
             if (userId == Guid.Empty)
             {
@@ -27,7 +27,7 @@ namespace Application.UseCase.AuthUseCase
             return await _authQuery.GetById(userId);
         }
 
-        public async Task<UserDTO> Login(LoginUserDTO loginUserDTO)
+        public async Task<UserResponseDTO> Login(LoginUserDTO loginUserDTO)
         {
             if (loginUserDTO == null)
             {
@@ -36,7 +36,7 @@ namespace Application.UseCase.AuthUseCase
             return await _authQuery.Get(loginUserDTO);
         }
 
-        public async Task<UserDTO> Register(UserDTO user)
+        public async Task<UserResponseDTO> Register(UserRequestDTO user)
         {
             if (user == null)
             {

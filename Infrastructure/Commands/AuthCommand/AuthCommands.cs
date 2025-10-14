@@ -13,21 +13,36 @@ namespace Infrastructure.Commands.AuthCommand
             _context = context;
         }
 
-        public async Task<UserDTO> Insert(UserDTO user)
+        public async Task<UserResponseDTO> Insert(UserRequestDTO user)
         {
             var userInsert = new User
             {
-                Id = Guid.NewGuid(),
                 Name = user.Name,
                 LastName = user.LastName,
                 Email = user.Email,
                 Password = user.Password,
-                Role = user.Role,
+                Phone = user.Phone,
+                RoleId = user.RoleId
             };
             _context.Users.Add(userInsert);
             await _context.SaveChangesAsync();
-            return await Task.FromResult(user);
+            return await MapToResponse(userInsert);
         }
 
+        private async Task<UserResponseDTO> MapToResponse(User user)
+        {
+            var userResponse = new UserResponseDTO
+            {
+                Id = user.Id,
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email,
+                Password = user.Password,
+                Phone = user.Phone,
+                RoleId = user.RoleId,
+                RoleName = user.Role.Name
+            };
+            return await Task.FromResult(userResponse);
+        }
     }
 }

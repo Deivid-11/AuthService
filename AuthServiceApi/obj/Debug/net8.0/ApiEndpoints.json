@@ -41,7 +41,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "Application.Models.UserModel.UserDTO",
+        "Type": "Application.Models.UserModel.UserRequestDTO",
         "IsRequired": true
       }
     ],

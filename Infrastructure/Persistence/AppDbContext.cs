@@ -6,6 +6,7 @@ namespace Infrastructure.Persistence
     public class AppDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -24,9 +25,33 @@ namespace Infrastructure.Persistence
                 entity.Property(e => e.Email).IsRequired().HasMaxLength(50);
                 entity.HasIndex(e => e.Email).IsUnique();
                 entity.Property(e => e.Password).IsRequired().HasMaxLength(50);
-                entity.Property(e => e.Phone).HasMaxLength(15);
-                entity.Property(e => e.Role).IsRequired().HasMaxLength(20);
+                entity.Property(e => e.Phone).IsRequired().HasMaxLength(15);
+
+                entity.HasOne(e => e.Role)
+                      .WithMany(e => e.Users)
+                      .HasForeignKey(e => e.RoleId)
+                      .OnDelete(DeleteBehavior.Cascade);
             });
+
+            modelBuilder.Entity<Role>(entity =>
+            {
+                entity.HasKey(e => e.RoleId);
+                entity.Property(e => e.RoleId).ValueGeneratedOnAdd();
+                entity.Property(e => e.Name).IsRequired().HasMaxLength(20);
+                entity.HasIndex(e => e.Name).IsUnique();
+                entity.HasMany(e => e.Users)
+                      .WithOne(e => e.Role)
+                      .HasForeignKey(e => e.RoleId)
+                      .OnDelete(DeleteBehavior.Cascade);
+
+                entity.HasData(
+                    new Role { RoleId = 1, Name = "User" },
+                    new Role { RoleId = 2, Name = "Admin" },
+                    new Role { RoleId = 3, Name = "SuperAdmin" }
+                );
+            });
+
+            
         }
 
     }

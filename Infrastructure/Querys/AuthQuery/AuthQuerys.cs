@@ -19,7 +19,7 @@ namespace Infrastructure.Querys.AuthQuery
             _context = context;
         }
 
-        public async Task<UserDTO> Get(LoginUserDTO login)
+        public async Task<UserResponseDTO> Get(LoginUserDTO login)
         {
             var user = await _context.Users
                 .FirstOrDefaultAsync(u => u.Email == login.Email && u.Password == login.Password);
@@ -28,7 +28,7 @@ namespace Infrastructure.Querys.AuthQuery
                 throw new ArgumentException("Usuario no encontrado");
                 return null;
             }
-            var userDTO = new UserDTO
+            var userDTO = new UserResponseDTO
             {
                 Id = user.Id,
                 Name = user.Name,
@@ -36,13 +36,14 @@ namespace Infrastructure.Querys.AuthQuery
                 Email = user.Email,
                 Password = user.Password,
                 Phone = user.Phone,
-                Role = user.Role
+                RoleId = user.RoleId,
+                RoleName = user.Role.Name
             };
             return userDTO;
 
         }
 
-        public async Task<UserDTO> GetById(Guid id)
+        public async Task<UserResponseDTO> GetById(Guid id)
         {
             var user = await _context.Users
                 .FirstOrDefaultAsync(u => u.Id == id);
@@ -51,7 +52,7 @@ namespace Infrastructure.Querys.AuthQuery
                 throw new ArgumentException("Usuario no encontrado");
                 return null;
             }
-            var userDTO = new UserDTO
+            var userDTO = new UserResponseDTO
             {
                 Id = user.Id,
                 Name = user.Name,
@@ -59,7 +60,8 @@ namespace Infrastructure.Querys.AuthQuery
                 Email = user.Email,
                 Password = user.Password,
                 Phone = user.Phone,
-                Role = user.Role
+                RoleId = user.RoleId,
+                RoleName = user.Role.Name
             };
             return userDTO;
         }

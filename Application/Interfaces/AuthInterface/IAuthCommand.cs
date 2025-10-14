@@ -5,6 +5,6 @@ namespace Application.Interfaces.AuthInterface
 {
     public interface IAuthCommand
     {
-        Task<UserDTO> Insert(UserDTO user);
+        Task<UserResponseDTO> Insert(UserRequestDTO user);
     }
 }

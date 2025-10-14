@@ -19,7 +19,7 @@ namespace AuthServiceApi.Controllers
 
         // POST: api/auth/register
         [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] UserDTO user)
+        public async Task<IActionResult> Register([FromBody] UserRequestDTO user)
         {
             var result = await _authService.Register(user);
             return new JsonResult(result);

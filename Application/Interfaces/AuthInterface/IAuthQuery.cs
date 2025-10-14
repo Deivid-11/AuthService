@@ -4,7 +4,7 @@ namespace Application.Interfaces.AuthInterface
 {
     public interface IAuthQuery
     {
-        Task<UserDTO> Get(LoginUserDTO login);
-        Task<UserDTO> GetById(Guid id);
+        Task<UserResponseDTO> Get(LoginUserDTO login);
+        Task<UserResponseDTO> GetById(Guid id);
     }
 }
