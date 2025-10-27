@@ -13,6 +13,17 @@ namespace Infrastructure.Querys.RoleQuery
         {
             _context = context;
         }
+
+        public async Task<List<RoleResponseDTO>> GetAll()
+        {
+            var list = await _context.Roles.Select(r => new RoleResponseDTO
+            {
+                RoleId = r.RoleId,
+                Name = r.Name
+            }).ToListAsync();
+            return list;
+        }
+
         public async Task<RoleResponseDTO> GetRoleById(int roleId)
         {
             Role role = await _context.Roles.FirstOrDefaultAsync(r => r.RoleId == roleId);

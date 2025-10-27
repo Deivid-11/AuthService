@@ -10,6 +10,12 @@ namespace Application.UseCase.RoleUseCase
         {
             _roleQuery = roleQuery;
         }
+
+        public async Task<List<RoleResponseDTO>> GetAll()
+        {
+            return await _roleQuery.GetAll();
+        }
+
         public async Task<RoleResponseDTO> GetRoleById(int roleId)
         {
             if (_roleQuery.RoleExists(roleId).Result == false)

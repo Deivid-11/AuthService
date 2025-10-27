@@ -13,15 +13,29 @@ namespace Infrastructure.Commands.UserCommand
             _context = context;
         }
 
-        public Task<UserResponseDTO> DeleteUser(UserRequestDTO user)
+        public async Task<UserResponseDTO> DeleteUser(User user)
         {
-            throw new NotImplementedException();
+            _context.Remove(user);
+            await _context.SaveChangesAsync();
+            return new UserResponseDTO
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Password = user.Password,
+                Phone = user.Phone,
+                RoleId = user.RoleId,
+                RoleName = user.Role.Name
+            };
         }
 
-        public async Task<UserResponseDTO> InsertUser(UserRequestDTO user)
+        public async Task<UserResponseDTO> InsertUser(User user)
         {
-            User u = new User
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
+            UserResponseDTO userResponse = new UserResponseDTO
             {
+                Id = user.Id,
                 Name = user.Name,
                 LastName = user.LastName,
                 Email = user.Email,
@@ -29,24 +43,24 @@ namespace Infrastructure.Commands.UserCommand
                 Phone = user.Phone,
                 RoleId = user.RoleId
             };
-            await _context.Users.AddAsync(u);
-            await _context.SaveChangesAsync();
-            UserResponseDTO userResponse = new UserResponseDTO
-            {
-                Id = u.Id,
-                Name = u.Name,
-                LastName = u.LastName,
-                Email = u.Email,
-                Password = u.Password,
-                Phone = u.Phone,
-                RoleId = u.RoleId
-            };
             return userResponse;
         }
 
-        public Task<UserResponseDTO> UpdateUser(UserRequestDTO user)
+        public async Task<UserResponseDTO> UpdateUser(User user)
         {
-            throw new NotImplementedException();
+            _context.Update(user);
+            await _context.SaveChangesAsync();
+            return new UserResponseDTO
+            {
+                Id = user.Id,
+                Name = user.Name,
+                LastName = user.LastName,
+                Email = user.Email,
+                Password = user.Password,
+                Phone = user.Phone,
+                RoleId = user.RoleId,
+                RoleName = user.Role.Name
+            };
         }
     }
 }

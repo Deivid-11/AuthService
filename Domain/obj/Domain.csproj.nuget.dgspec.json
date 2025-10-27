@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AuthService\\Domain\\Domain.csproj": {}
+    "C:\\Users\\federico\\Documents\\AuthService\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\AuthService\\Domain\\Domain.csproj": {
+    "C:\\Users\\federico\\Documents\\AuthService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AuthService\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\federico\\Documents\\AuthService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\AuthService\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
-        "outputPath": "D:\\AuthService\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\federico\\Documents\\AuthService\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\federico\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\federico\\Documents\\AuthService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

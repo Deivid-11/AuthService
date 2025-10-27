@@ -7,7 +7,8 @@ namespace Application.Interfaces.UserInterfaces
         Task<UserResponseDTO> Login(UserLoginDTO login);
         Task<List<UserResponseDTO>> GetAllUsers();
         Task<UserResponseDTO> RegisterUser(UserRequestDTO user);
-        Task<UserResponseDTO> UpdateUser(UserRequestDTO user);
-        Task<UserResponseDTO> DeleteUser(UserRequestDTO user);
+        Task<UserResponseDTO> ChangePassword(Guid userId, string newPassword);
+        Task<UserResponseDTO> DeleteUser(Guid id);
+        Task<bool> ExistUser(string email);
     }
 }

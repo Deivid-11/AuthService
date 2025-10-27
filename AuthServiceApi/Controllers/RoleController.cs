@@ -18,5 +18,11 @@ namespace AuthServiceApi.Controllers
             var result = await _roleService.GetRoleById(roleId);
             return new JsonResult(result);
         }
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAll()
+        {
+            var result = await _roleService.GetAll();
+            return new JsonResult(result);
+        }
     }
 }

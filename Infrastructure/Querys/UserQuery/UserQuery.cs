@@ -35,28 +35,17 @@ namespace Infrastructure.Querys.UserQuery
             return users;
         }
 
-        public async Task<UserResponseDTO> GetUser(Guid Id)
+        public async Task<User> GetUser(Guid Id)
         {
             User user = await _context.Users.Include(u => u.Role).FirstOrDefaultAsync(u => u.Id == Id);
             if (user == null)
             {
                 throw new ArgumentException("User not found");
             }
-            UserResponseDTO userResponse = new UserResponseDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                LastName = user.LastName,
-                Email = user.Email,
-                Password = user.Password,
-                Phone = user.Phone,
-                RoleId = user.RoleId,
-                RoleName = user.Role.Name
-            };
-            return userResponse;
+            return user;
         }
 
-        public async Task<UserResponseDTO> Login(string email, string password)
+        public async Task<User> Login(string email, string password)
         {
             User user = await _context.Users
                 .Include(u => u.Role)
@@ -65,18 +54,7 @@ namespace Infrastructure.Querys.UserQuery
             {
                 throw new ArgumentException("Invalid email or password");
             }
-            UserResponseDTO userResponse = new UserResponseDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                LastName = user.LastName,
-                Email = user.Email,
-                Password = user.Password,
-                Phone = user.Phone,
-                RoleId = user.RoleId,
-                RoleName = user.Role.Name
-            };
-            return userResponse;
+            return user;
         }
     }
 }

@@ -1,11 +1,12 @@
 ﻿using Application.Models.UserModels;
+using Domain.Entities;
 
 namespace Application.Interfaces.UserInterfaces
 {
     public interface IUserCommand
     {
-        Task<UserResponseDTO> InsertUser(UserRequestDTO user);
-        Task<UserResponseDTO> UpdateUser(UserRequestDTO user);
-        Task<UserResponseDTO> DeleteUser(UserRequestDTO user);
+        Task<UserResponseDTO> InsertUser(User user);
+        Task<UserResponseDTO> UpdateUser(User user);
+        Task<UserResponseDTO> DeleteUser(User user);
     }
 }

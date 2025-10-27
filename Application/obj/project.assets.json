@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fedea\\.nuget\\packages\\": {},
-    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\federico\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AuthService\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\AuthService\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
-      "outputPath": "D:\\AuthService\\Application\\obj\\",
+      "projectPath": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\federico\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\federico\\Documents\\AuthService\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\AuthService\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\AuthService\\Domain\\Domain.csproj"
+            "C:\\Users\\federico\\Documents\\AuthService\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\federico\\Documents\\AuthService\\Domain\\Domain.csproj"
             }
           }
         }

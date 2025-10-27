@@ -5179,23 +5179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fedea\\.nuget\\packages\\": {},
-    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\federico\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AuthService\\AuthServiceApi\\AuthServiceApi.csproj",
+      "projectUniqueName": "C:\\Users\\federico\\Documents\\AuthService\\AuthServiceApi\\AuthServiceApi.csproj",
       "projectName": "AuthServiceApi",
-      "projectPath": "D:\\AuthService\\AuthServiceApi\\AuthServiceApi.csproj",
-      "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
-      "outputPath": "D:\\AuthService\\AuthServiceApi\\obj\\",
+      "projectPath": "C:\\Users\\federico\\Documents\\AuthService\\AuthServiceApi\\AuthServiceApi.csproj",
+      "packagesPath": "C:\\Users\\federico\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\federico\\Documents\\AuthService\\AuthServiceApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\federico\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5210,8 +5210,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\AuthService\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\AuthService\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\federico\\Documents\\AuthService\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\federico\\Documents\\AuthService\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
