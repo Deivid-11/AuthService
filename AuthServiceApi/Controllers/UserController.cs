@@ -9,6 +9,7 @@ namespace AuthServiceApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly 
 
         public UserController(IUserService userService)
         {
@@ -17,7 +18,7 @@ namespace AuthServiceApi.Controllers
 
         // POST: api/user/register
         [HttpPost("register")]
-        public async Task<IActionResult> Register(UserRequestDTO user)
+        public async Task<IActionResult> Register([FromBody] UserRequestDTO user)
         {
             if (await _userService.ExistUser(user.Email))
             {
@@ -27,16 +28,16 @@ namespace AuthServiceApi.Controllers
             return new JsonResult(result);
         }
 
-        // Get: api/user/login
+        // POST: api/user/login
         [HttpGet("login")]
-        public async Task<IActionResult> Login(UserLoginDTO login)
+        public async Task<IActionResult> Login([FromBody] UserLoginDTO login)
         {
             var result = await _userService.Login(login);
             return new JsonResult(result);
         }
 
-        //Get: api/user/all
-        [HttpGet("all")]
+        //Get: api/users
+        [HttpGet]
         public async Task<IActionResult> GetAllUsers()
         {
             var result = await _userService.GetAllUsers();
@@ -51,7 +52,7 @@ namespace AuthServiceApi.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteUser(Guid id)
+        public async Task<IActionResult> DeleteUser([FromQuery] Guid id)
         {
             var result = await _userService.DeleteUser(id);
             return new JsonResult(result);

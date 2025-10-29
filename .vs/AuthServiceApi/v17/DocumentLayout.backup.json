@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\federico\\Documents\\AuthService\\",
+  "WorkspaceRootPath": "D:\\AuthService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\federico\\documents\\authservice\\application\\usecase\\userusecase\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|d:\\authservice\\application\\usecase\\userusecase\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\usecase\\userusecase\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\federico\\documents\\authservice\\application\\interfaces\\userinterfaces\\iuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|d:\\authservice\\application\\interfaces\\userinterfaces\\iuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\userinterfaces\\iuserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\federico\\documents\\authservice\\infrastructure\\querys\\userquery\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|d:\\authservice\\infrastructure\\querys\\userquery\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\querys\\userquery\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|c:\\users\\federico\\documents\\authservice\\authserviceapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|d:\\authservice\\authserviceapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCDD1423-AE30-407F-B135-0BF05D50BB63}|AuthServiceApi\\AuthServiceApi.csproj|solutionrelative:authserviceapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\federico\\documents\\authservice\\application\\interfaces\\userinterfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|d:\\authservice\\application\\interfaces\\userinterfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\userinterfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|c:\\users\\federico\\documents\\authservice\\application\\interfaces\\userinterfaces\\iusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|d:\\authservice\\application\\interfaces\\userinterfaces\\iusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D24B2F1-2EA0-4DC7-93FC-0CF736B28233}|Application\\Application.csproj|solutionrelative:application\\interfaces\\userinterfaces\\iusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|c:\\users\\federico\\documents\\authservice\\infrastructure\\commands\\usercommand\\usercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|d:\\authservice\\infrastructure\\commands\\usercommand\\usercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02D03453-BADC-4F33-B85F-4578570383D9}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\commands\\usercommand\\usercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "IUserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserCommand.cs",
+              "DocumentMoniker": "D:\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserCommand.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\UserInterfaces\\IUserCommand.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserCommand.cs",
+              "ToolTip": "D:\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserCommand.cs",
               "RelativeToolTip": "Application\\Interfaces\\UserInterfaces\\IUserCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "UserCommand.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\Infrastructure\\Commands\\UserCommand\\UserCommand.cs",
+              "DocumentMoniker": "D:\\AuthService\\Infrastructure\\Commands\\UserCommand\\UserCommand.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Commands\\UserCommand\\UserCommand.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\Infrastructure\\Commands\\UserCommand\\UserCommand.cs",
+              "ToolTip": "D:\\AuthService\\Infrastructure\\Commands\\UserCommand\\UserCommand.cs",
               "RelativeToolTip": "Infrastructure\\Commands\\UserCommand\\UserCommand.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAuwD0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,37 +68,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserQuery.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\Infrastructure\\Querys\\UserQuery\\UserQuery.cs",
+              "DocumentMoniker": "D:\\AuthService\\Infrastructure\\Querys\\UserQuery\\UserQuery.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Querys\\UserQuery\\UserQuery.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\Infrastructure\\Querys\\UserQuery\\UserQuery.cs",
+              "ToolTip": "D:\\AuthService\\Infrastructure\\Querys\\UserQuery\\UserQuery.cs",
               "RelativeToolTip": "Infrastructure\\Querys\\UserQuery\\UserQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T12:16:18.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T12:16:18.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "IUserQuery.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserQuery.cs",
+              "DocumentMoniker": "D:\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserQuery.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\UserInterfaces\\IUserQuery.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserQuery.cs",
+              "ToolTip": "D:\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserQuery.cs",
               "RelativeToolTip": "Application\\Interfaces\\UserInterfaces\\IUserQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T12:15:49.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T12:15:49.884Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\Application\\UseCase\\UserUseCase\\UserService.cs",
+              "DocumentMoniker": "D:\\AuthService\\Application\\UseCase\\UserUseCase\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\UseCase\\UserUseCase\\UserService.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\Application\\UseCase\\UserUseCase\\UserService.cs",
+              "ToolTip": "D:\\AuthService\\Application\\UseCase\\UserUseCase\\UserService.cs",
               "RelativeToolTip": "Application\\UseCase\\UserUseCase\\UserService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAApwDIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T10:59:30.149Z",
               "EditorCaption": ""
@@ -107,27 +105,25 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserService.cs",
+              "DocumentMoniker": "D:\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\UserInterfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserService.cs",
+              "ToolTip": "D:\\AuthService\\Application\\Interfaces\\UserInterfaces\\IUserService.cs",
               "RelativeToolTip": "Application\\Interfaces\\UserInterfaces\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:58:50.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T10:58:50.713Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\federico\\Documents\\AuthService\\AuthServiceApi\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\AuthService\\AuthServiceApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "AuthServiceApi\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\federico\\Documents\\AuthService\\AuthServiceApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\AuthService\\AuthServiceApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "AuthServiceApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAswD4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:58:18.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T10:58:18.857Z"
             }
           ]
         }
