@@ -1,7 +1,14 @@
-﻿using Application.Interfaces.UserInterfaces;
+﻿using Application.Interfaces.UserInterface;
+using Application.Models.AuthModels.Register;
 using Application.Models.UserModels;
 using Domain.Entities;
 using Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Infrastructure.Commands.UserCommand
 {
@@ -12,55 +19,28 @@ namespace Infrastructure.Commands.UserCommand
         {
             _context = context;
         }
-
-        public async Task<UserResponseDTO> DeleteUser(User user)
+        public async Task<User> DeleteUser(Guid id)
         {
-            _context.Remove(user);
+            User user = await _context.Users
+                .Include(u => u.Role)
+                .FirstOrDefaultAsync(u => u.Id == id);
+            _context.Users.Remove(user);
             await _context.SaveChangesAsync();
-            return new UserResponseDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                Email = user.Email,
-                Password = user.Password,
-                Phone = user.Phone,
-                RoleId = user.RoleId,
-                RoleName = user.Role.Name
-            };
+            return user;
         }
 
-        public async Task<UserResponseDTO> InsertUser(User user)
+        public async Task<User> InsertUser(User user)
         {
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
-            UserResponseDTO userResponse = new UserResponseDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                LastName = user.LastName,
-                Email = user.Email,
-                Password = user.Password,
-                Phone = user.Phone,
-                RoleId = user.RoleId
-            };
-            return userResponse;
+           return user;
         }
 
-        public async Task<UserResponseDTO> UpdateUser(User user)
+        public async Task<User> UpdateUser(User user)
         {
-            _context.Update(user);
+            _context.Users.Update(user);
             await _context.SaveChangesAsync();
-            return new UserResponseDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                LastName = user.LastName,
-                Email = user.Email,
-                Password = user.Password,
-                Phone = user.Phone,
-                RoleId = user.RoleId,
-                RoleName = user.Role.Name
-            };
+            return user;
         }
     }
 }

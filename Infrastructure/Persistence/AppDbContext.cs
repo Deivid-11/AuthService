@@ -24,7 +24,7 @@ namespace Infrastructure.Persistence
                 entity.Property(e => e.LastName).IsRequired().HasMaxLength(25);
                 entity.Property(e => e.Email).IsRequired().HasMaxLength(50);
                 entity.HasIndex(e => e.Email).IsUnique();
-                entity.Property(e => e.Password).IsRequired().HasMaxLength(50);
+                entity.Property(e => e.Password).IsRequired().HasMaxLength(500);
                 entity.Property(e => e.Phone).IsRequired().HasMaxLength(15);
 
                 entity.HasOne(e => e.Role)

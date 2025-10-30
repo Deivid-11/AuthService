@@ -1,15 +1,12 @@
-using Application.Interfaces.RoleInterfaces;
-using Application.Interfaces.UserInterfaces;
-using Application.UseCase.RoleUseCase;
-using Application.UseCase.UserUseCase;
-using Infrastructure.Commands.UserCommand;
-using Infrastructure.Persistence;
-using Infrastructure.Querys.RoleQuery;
-using Infrastructure.Querys.UserQuery;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Infrastructure.Persistence;
+using Application.Interfaces.UserInterface;
+using Application.UseCase.UserUseCase;
+using Infrastructure.Commands.UserCommand;
+using Infrastructure.Querys.UserQuery;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,32 +25,33 @@ builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(options =>
 {
-    options.RequireHttpsMetadata = true;
-    options.SaveToken = true;
-    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
-        ValidateAudience = true,
+        ValidateAudience = false,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer = issuer,
-        ValidAudience = audience,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret)),
-        ClockSkew = TimeSpan.FromSeconds(30)
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
+});
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("SuperAdminOnly", policy => policy.RequireClaim("Role", "SuperAdmin"));
+    options.AddPolicy("AdminOnly", policy => policy.RequireClaim("Role", "Admin"));
+    options.AddPolicy("UserOnly", policy => policy.RequireClaim("Role", "User"));
 });
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserCommand, UserCommand>();
 builder.Services.AddScoped<IUserQuery, UserQuery>();
-builder.Services.AddScoped<IUserService, UserService>();
-
-builder.Services.AddScoped<IRoleQuery, RoleQuery>();
-builder.Services.AddScoped<IRoleService, RoleService>();
 
 var app = builder.Build();
 
