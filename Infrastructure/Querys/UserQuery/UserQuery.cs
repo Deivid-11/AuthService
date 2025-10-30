@@ -1,5 +1,7 @@
-﻿using Application.Interfaces.UserInterfaces;
+﻿using Application.Interfaces.UserInterface;
+using Application.Models.AuthModels.Login;
 using Application.Models.UserModels;
+using Application.UseCase.HashUseCase;
 using Domain.Entities;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -13,48 +15,39 @@ namespace Infrastructure.Querys.UserQuery
         {
             _context = context;
         }
-
-        public async Task<bool> ExistUser(string email)
+        public async Task<List<User>> GetAllUsers()
         {
-            return await _context.Users.AnyAsync(u => u.Email == email.ToLower());
-        }
-
-        public async Task<List<UserResponseDTO>> GetAllUsers()
-        {
-            var users = await _context.Users.Include(u => u.Role).Select(user => new UserResponseDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                LastName = user.LastName,
-                Email = user.Email,
-                Password = user.Password,
-                Phone = user.Phone,
-                RoleId = user.RoleId,
-                RoleName = user.Role.Name
-            }).ToListAsync();
+            List<User> users = await _context.Users
+                .Include(u => u.Role)
+                .ToListAsync();
             return users;
         }
 
-        public async Task<User> GetUser(Guid Id)
-        {
-            User user = await _context.Users.Include(u => u.Role).FirstOrDefaultAsync(u => u.Id == Id);
-            if (user == null)
-            {
-                throw new ArgumentException("User not found");
-            }
-            return user;
-        }
-
-        public async Task<User> Login(string email, string password)
+        public async Task<LoginResponseDTO> GetByEmail(string email)
         {
             User user = await _context.Users
                 .Include(u => u.Role)
-                .FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
-            if (user == null)
+                .FirstOrDefaultAsync(u => u.Email == email);
+            return new LoginResponseDTO
             {
-                throw new ArgumentException("Invalid email or password");
-            }
+                Id = user.Id,
+                Email = user.Email,
+                RoleName = user.Role.Name,
+                Password = user.Password
+            };
+        }
+
+        public async Task<User> GetById(Guid userId)
+        {
+            User user = await _context.Users.Include(u => u.Role)
+                .FirstOrDefaultAsync(u => u.Id == userId);
+
             return user;
+        }
+
+        public async Task<bool> IsEmailUnique(string email)
+        {
+            return await _context.Users.AnyAsync(u => u.Email == email);
         }
     }
 }

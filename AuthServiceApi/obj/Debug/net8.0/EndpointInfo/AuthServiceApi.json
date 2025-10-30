@@ -5,29 +5,6 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Role/{roleId}": {
-      "get": {
-        "tags": [
-          "Role"
-        ],
-        "parameters": [
-          {
-            "name": "roleId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/User/register": {
       "post": {
         "tags": [
@@ -37,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserRequestDTO"
+                "$ref": "#/components/schemas/RegisterRequestDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserRequestDTO"
+                "$ref": "#/components/schemas/RegisterRequestDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserRequestDTO"
+                "$ref": "#/components/schemas/RegisterRequestDTO"
               }
             }
           }
@@ -60,7 +37,7 @@
       }
     },
     "/api/User/login": {
-      "get": {
+      "post": {
         "tags": [
           "User"
         ],
@@ -68,17 +45,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserLoginDTO"
+                "$ref": "#/components/schemas/LoginDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UserLoginDTO"
+                "$ref": "#/components/schemas/LoginDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UserLoginDTO"
+                "$ref": "#/components/schemas/LoginDTO"
               }
             }
           }
@@ -90,91 +67,10 @@
         }
       }
     },
-    "/api/User/all": {
+    "/api/User/users": {
       "get": {
         "tags": [
           "User"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/User/change-password": {
-      "patch": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          },
-          {
-            "name": "newPassword",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/User": {
-      "delete": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/User/change-role": {
-      "patch": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "userId",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          },
-          {
-            "name": "newRole",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
         ],
         "responses": {
           "200": {
@@ -186,7 +82,7 @@
   },
   "components": {
     "schemas": {
-      "UserLoginDTO": {
+      "LoginDTO": {
         "type": "object",
         "properties": {
           "email": {
@@ -200,7 +96,7 @@
         },
         "additionalProperties": false
       },
-      "UserRequestDTO": {
+      "RegisterRequestDTO": {
         "type": "object",
         "properties": {
           "name": {
@@ -211,6 +107,10 @@
             "type": "string",
             "nullable": true
           },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
           "email": {
             "type": "string",
             "nullable": true
@@ -218,14 +118,6 @@
           "password": {
             "type": "string",
             "nullable": true
-          },
-          "phone": {
-            "type": "string",
-            "nullable": true
-          },
-          "roleId": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
