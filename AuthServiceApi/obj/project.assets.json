@@ -4908,32 +4908,39 @@
     ]
   },
   "packageFolders": {
-    "/home/santiagolovisotto/.nuget/packages/": {}
+    "C:\\Users\\fedea\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/AuthServiceApi/AuthServiceApi.csproj",
+      "projectUniqueName": "D:\\AuthService\\AuthServiceApi\\AuthServiceApi.csproj",
       "projectName": "AuthServiceApi",
-      "projectPath": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/AuthServiceApi/AuthServiceApi.csproj",
-      "packagesPath": "/home/santiagolovisotto/.nuget/packages/",
-      "outputPath": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/AuthServiceApi/obj/",
+      "projectPath": "D:\\AuthService\\AuthServiceApi\\AuthServiceApi.csproj",
+      "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
+      "outputPath": "D:\\AuthService\\AuthServiceApi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/santiagolovisotto/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Infrastructure/Infrastructure.csproj"
+            "D:\\AuthService\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\AuthService\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -4942,7 +4949,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -4982,7 +4995,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

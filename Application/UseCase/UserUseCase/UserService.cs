@@ -7,6 +7,7 @@ using Domain.Entities;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -196,13 +197,12 @@ namespace Application.UseCase.UserUseCase
         {
             var userClaims = new[]
             {
-                new System.Security.Claims.Claim(System.Security.Claims.ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new System.Security.Claims.Claim(System.Security.Claims.ClaimTypes.Email, user.Email),
-                new System.Security.Claims.Claim(System.Security.Claims.ClaimTypes.Role, user.RoleName),
+                new Claim("userId", user.Id.ToString()),
+                new Claim("userRole", user.RoleName)
             };
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var jwtConfig = new JwtSecurityToken(
                     issuer: _configuration["Jwt:Issuer"],

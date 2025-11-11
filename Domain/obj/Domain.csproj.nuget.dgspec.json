@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Domain/Domain.csproj": {}
+    "D:\\AuthService\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Domain/Domain.csproj": {
+    "D:\\AuthService\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Domain/Domain.csproj",
+        "projectUniqueName": "D:\\AuthService\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Domain/Domain.csproj",
-        "packagesPath": "/home/santiagolovisotto/.nuget/packages/",
-        "outputPath": "/home/santiagolovisotto/Documents/Github/Ticketech/AuthService/Domain/obj/",
+        "projectPath": "D:\\AuthService\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
+        "outputPath": "D:\\AuthService\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/santiagolovisotto/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -53,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
