@@ -43,5 +43,22 @@ namespace AuthServiceApi.Controllers
             var result = await _userService.ChangePassword(request);
             return new JsonResult(result);
         }
+
+        [HttpPatch("change-role/{userId}")]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> ChangeUserRole([FromRoute] Guid userId, [FromBody] ChangeUserRoleRequest request)
+        {
+            request.UserId = userId;
+            var result = await _userService.ChangeUserRole(request);
+            return new JsonResult(result);
+        }
+
+        [HttpGet("users")]
+        [Authorize(Roles = "SuperAdmin")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var result = await _userService.GetAll();
+            return new JsonResult(result);
+        }
     }
 }

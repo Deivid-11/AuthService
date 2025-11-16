@@ -7,8 +7,9 @@ namespace Application.Interfaces.UserInterface
     public interface IUserQuery
     {
         Task<bool> IsEmailUnique(string email);
+        Task<bool> ExistUser(Guid id);
         Task<User> GetById(Guid userId);
         Task<User> GetByEmail(string email);
-        Task<List<User>> GetAllUsers();
+        Task<List<UserResponseDTO>> GetAll();
     }
 }

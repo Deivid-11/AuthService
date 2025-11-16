@@ -10,5 +10,7 @@ namespace Application.Interfaces.UserInterface
         Task<RegisterResponseDTO> RegisterUser(RegisterRequestDTO request);
         Task<string> LoginUser(LoginDTO request);
         Task<bool> ChangePassword(ChangePasswordRequest request);
+        Task<bool> ChangeUserRole(ChangeUserRoleRequest request);
+        Task<List<UserResponseDTO>> GetAll();
     }
 }

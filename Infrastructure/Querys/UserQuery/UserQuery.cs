@@ -15,10 +15,27 @@ namespace Infrastructure.Querys.UserQuery
         {
             _context = context;
         }
-        public async Task<List<User>> GetAllUsers()
+
+        public async Task<bool> ExistUser(Guid id)
         {
-            List<User> users = await _context.Users
+            return await _context.Users.AnyAsync(u => u.Id == id);
+        }
+
+        public async Task<List<UserResponseDTO>> GetAll()
+        {
+            var users = await _context.Users
                 .Include(u => u.Role)
+                .Select(u => new UserResponseDTO
+                {
+                    Id = u.Id,
+                    Name = u.Name,
+                    LastName = u.LastName,
+                    Email = u.Email,
+                    Password = u.Password,
+                    Phone = u.Phone,
+                    RoleId = u.RoleId,
+                    RoleName = u.Role.Name
+                })
                 .ToListAsync();
             return users;
         }

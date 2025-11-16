@@ -37,6 +37,15 @@ namespace Infrastructure.Commands.UserCommand
             return true;
         }
 
+        public async Task<bool> ChangeUserRole(ChangeUserRoleRequest request)
+        {
+            var user =  await _context.Users.FirstOrDefaultAsync(u => u.Id == request.UserId);
+            user.RoleId = request.NewRole;
+            _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
         public async Task<User> InsertUser(User user)
         {
             await _context.Users.AddAsync(user);

@@ -48,6 +48,21 @@ namespace Application.UseCase.UserUseCase
 
             return await _userCommand.ChangePassword(request);
         }
+
+        public async Task<bool> ChangeUserRole(ChangeUserRoleRequest request)
+        {
+            if (await _userQuery.ExistUser(request.UserId) == false)
+            {
+                throw new KeyNotFoundException("No se encontró el usuario.");
+            }
+            return await _userCommand.ChangeUserRole(request);
+        }
+
+        public async Task<List<UserResponseDTO>> GetAll()
+        {
+            return await _userQuery.GetAll();
+        }
+
         public async Task<string> LoginUser(LoginDTO request)
         {
             var Vmails = new string[] { "@gmail.com", "@outlook.com", "@hotmail.com", "@yahoo.com" };
